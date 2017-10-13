@@ -1,0 +1,27 @@
+
+<div>
+    <h2><span>Distritos</span> {{vm.distritos.id}}</h2>
+    <hr>
+    <jhi-alert-error></jhi-alert-error>
+    <dl class="dl-horizontal jh-entity-details">
+        <dt><span>Num Distrito</span></dt>
+        <dd>
+            <span>{{vm.distritos.num_distrito}}</span>
+        </dd>
+        <dt><span>Nom Distrito</span></dt>
+        <dd>
+            <span>{{vm.distritos.nom_distrito}}</span>
+        </dd>
+    </dl>
+
+    <button type="submit"
+            ui-sref="{{ vm.previousState }}"
+            class="btn btn-info">
+        <span class="glyphicon glyphicon-arrow-left"></span>&nbsp;<span> Back</span>
+    </button>
+
+    <button type="button" ui-sref="distritos-detail.edit({id:vm.distritos.id})" class="btn btn-primary">
+        <span class="glyphicon glyphicon-pencil"></span>
+        <span class="hidden-sm-down"> Edit</span>
+    </button>
+</div>
