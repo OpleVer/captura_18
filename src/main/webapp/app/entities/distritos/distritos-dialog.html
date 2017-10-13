@@ -41,6 +41,198 @@
                 </p>
             </div>
         </div>
+        <div class="form-group">
+            <label class="control-label" for="field_total_actas_distrito">Total Actas Distrito</label>
+            <input type="number" class="form-control" name="total_actas_distrito" id="field_total_actas_distrito"
+                    ng-model="vm.distritos.total_actas_distrito"
+                    required/>
+            <div ng-show="editForm.total_actas_distrito.$invalid">
+                <p class="help-block"
+                    ng-show="editForm.total_actas_distrito.$error.required">
+                    This field is required.
+                </p>
+                <p class="help-block"
+                    ng-show="editForm.total_actas_distrito.$error.number">
+                    This field should be a number.
+                </p>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label" for="field_lista_nominal_distrito">Lista Nominal Distrito</label>
+            <input type="number" class="form-control" name="lista_nominal_distrito" id="field_lista_nominal_distrito"
+                    ng-model="vm.distritos.lista_nominal_distrito"
+                    required/>
+            <div ng-show="editForm.lista_nominal_distrito.$invalid">
+                <p class="help-block"
+                    ng-show="editForm.lista_nominal_distrito.$error.required">
+                    This field is required.
+                </p>
+                <p class="help-block"
+                    ng-show="editForm.lista_nominal_distrito.$error.number">
+                    This field should be a number.
+                </p>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label" for="field_actas_procesadas">Actas Procesadas</label>
+            <input type="number" class="form-control" name="actas_procesadas" id="field_actas_procesadas"
+                    ng-model="vm.distritos.actas_procesadas"
+                    required/>
+            <div ng-show="editForm.actas_procesadas.$invalid">
+                <p class="help-block"
+                    ng-show="editForm.actas_procesadas.$error.required">
+                    This field is required.
+                </p>
+                <p class="help-block"
+                    ng-show="editForm.actas_procesadas.$error.number">
+                    This field should be a number.
+                </p>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label" for="field_porc_actas_procesadas">Porc Actas Procesadas</label>
+            <input type="number" class="form-control" name="porc_actas_procesadas" id="field_porc_actas_procesadas"
+                    ng-model="vm.distritos.porc_actas_procesadas"
+                    required/>
+            <div ng-show="editForm.porc_actas_procesadas.$invalid">
+                <p class="help-block"
+                    ng-show="editForm.porc_actas_procesadas.$error.required">
+                    This field is required.
+                </p>
+                <p class="help-block"
+                    ng-show="editForm.porc_actas_procesadas.$error.number">
+                    This field should be a number.
+                </p>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label" for="field_total_votos">Total Votos</label>
+            <input type="number" class="form-control" name="total_votos" id="field_total_votos"
+                    ng-model="vm.distritos.total_votos"
+                    required/>
+            <div ng-show="editForm.total_votos.$invalid">
+                <p class="help-block"
+                    ng-show="editForm.total_votos.$error.required">
+                    This field is required.
+                </p>
+                <p class="help-block"
+                    ng-show="editForm.total_votos.$error.number">
+                    This field should be a number.
+                </p>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label" for="field_porc_participacion">Porc Participacion</label>
+            <input type="number" class="form-control" name="porc_participacion" id="field_porc_participacion"
+                    ng-model="vm.distritos.porc_participacion"
+                    required/>
+            <div ng-show="editForm.porc_participacion.$invalid">
+                <p class="help-block"
+                    ng-show="editForm.porc_participacion.$error.required">
+                    This field is required.
+                </p>
+                <p class="help-block"
+                    ng-show="editForm.porc_participacion.$error.number">
+                    This field should be a number.
+                </p>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label" for="field_actas_correctas">Actas Correctas</label>
+            <input type="number" class="form-control" name="actas_correctas" id="field_actas_correctas"
+                    ng-model="vm.distritos.actas_correctas"
+                    required/>
+            <div ng-show="editForm.actas_correctas.$invalid">
+                <p class="help-block"
+                    ng-show="editForm.actas_correctas.$error.required">
+                    This field is required.
+                </p>
+                <p class="help-block"
+                    ng-show="editForm.actas_correctas.$error.number">
+                    This field should be a number.
+                </p>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label" for="field_actas_digitalizadas">Actas Digitalizadas</label>
+            <input type="number" class="form-control" name="actas_digitalizadas" id="field_actas_digitalizadas"
+                    ng-model="vm.distritos.actas_digitalizadas"
+                    required/>
+            <div ng-show="editForm.actas_digitalizadas.$invalid">
+                <p class="help-block"
+                    ng-show="editForm.actas_digitalizadas.$error.required">
+                    This field is required.
+                </p>
+                <p class="help-block"
+                    ng-show="editForm.actas_digitalizadas.$error.number">
+                    This field should be a number.
+                </p>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label" for="field_actas_acopiadas">Actas Acopiadas</label>
+            <input type="number" class="form-control" name="actas_acopiadas" id="field_actas_acopiadas"
+                    ng-model="vm.distritos.actas_acopiadas"
+                    required/>
+            <div ng-show="editForm.actas_acopiadas.$invalid">
+                <p class="help-block"
+                    ng-show="editForm.actas_acopiadas.$error.required">
+                    This field is required.
+                </p>
+                <p class="help-block"
+                    ng-show="editForm.actas_acopiadas.$error.number">
+                    This field should be a number.
+                </p>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label" for="field_total_votantes">Total Votantes</label>
+            <input type="number" class="form-control" name="total_votantes" id="field_total_votantes"
+                    ng-model="vm.distritos.total_votantes"
+                    required/>
+            <div ng-show="editForm.total_votantes.$invalid">
+                <p class="help-block"
+                    ng-show="editForm.total_votantes.$error.required">
+                    This field is required.
+                </p>
+                <p class="help-block"
+                    ng-show="editForm.total_votantes.$error.number">
+                    This field should be a number.
+                </p>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label" for="field_total_sobrantes">Total Sobrantes</label>
+            <input type="number" class="form-control" name="total_sobrantes" id="field_total_sobrantes"
+                    ng-model="vm.distritos.total_sobrantes"
+                    required/>
+            <div ng-show="editForm.total_sobrantes.$invalid">
+                <p class="help-block"
+                    ng-show="editForm.total_sobrantes.$error.required">
+                    This field is required.
+                </p>
+                <p class="help-block"
+                    ng-show="editForm.total_sobrantes.$error.number">
+                    This field should be a number.
+                </p>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label" for="field_votos_sacados_urna">Votos Sacados Urna</label>
+            <input type="number" class="form-control" name="votos_sacados_urna" id="field_votos_sacados_urna"
+                    ng-model="vm.distritos.votos_sacados_urna"
+                    required/>
+            <div ng-show="editForm.votos_sacados_urna.$invalid">
+                <p class="help-block"
+                    ng-show="editForm.votos_sacados_urna.$error.required">
+                    This field is required.
+                </p>
+                <p class="help-block"
+                    ng-show="editForm.votos_sacados_urna.$error.number">
+                    This field should be a number.
+                </p>
+            </div>
+        </div>
 
     </div>
     <div class="modal-footer">

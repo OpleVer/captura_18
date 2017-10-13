@@ -97,6 +97,18 @@
                             return {
                                 num_distrito: null,
                                 nom_distrito: null,
+                                total_actas_distrito: null,
+                                lista_nominal_distrito: null,
+                                actas_procesadas: null,
+                                porc_actas_procesadas: null,
+                                total_votos: null,
+                                porc_participacion: null,
+                                actas_correctas: null,
+                                actas_digitalizadas: null,
+                                actas_acopiadas: null,
+                                total_votantes: null,
+                                total_sobrantes: null,
+                                votos_sacados_urna: null,
                                 id: null
                             };
                         }

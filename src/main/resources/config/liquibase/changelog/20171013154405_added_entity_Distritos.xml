@@ -30,6 +30,54 @@
                 <constraints nullable="false" />
             </column>
 
+            <column name="total_actas_distrito" type="integer">
+                <constraints nullable="false" />
+            </column>
+
+            <column name="lista_nominal_distrito" type="integer">
+                <constraints nullable="false" />
+            </column>
+
+            <column name="actas_procesadas" type="integer">
+                <constraints nullable="false" />
+            </column>
+
+            <column name="porc_actas_procesadas" type="${floatType}">
+                <constraints nullable="false" />
+            </column>
+
+            <column name="total_votos" type="integer">
+                <constraints nullable="false" />
+            </column>
+
+            <column name="porc_participacion" type="${floatType}">
+                <constraints nullable="false" />
+            </column>
+
+            <column name="actas_correctas" type="integer">
+                <constraints nullable="false" />
+            </column>
+
+            <column name="actas_digitalizadas" type="integer">
+                <constraints nullable="false" />
+            </column>
+
+            <column name="actas_acopiadas" type="integer">
+                <constraints nullable="false" />
+            </column>
+
+            <column name="total_votantes" type="integer">
+                <constraints nullable="false" />
+            </column>
+
+            <column name="total_sobrantes" type="integer">
+                <constraints nullable="false" />
+            </column>
+
+            <column name="votos_sacados_urna" type="integer">
+                <constraints nullable="false" />
+            </column>
+
             <!-- jhipster-needle-liquibase-add-column - JHipster will add columns here, do not remove-->
         </createTable>
         
